@@ -1,21 +1,21 @@
-#include<iostream>
+п»ї#include<iostream>
 
 using std::cin;
 using std::cout;
 using std::endl;
 
-//#define Задание_1
-//#define Задание_0
-//#defaine Задание_2
-//#defaine Задание_3 
-//#defaine Задание_4
-//#defaine Ромб
+//#define Р—Р°РґР°РЅРёРµ_1
+//#define Р—Р°РґР°РЅРёРµ_0
+//#defaine Р—Р°РґР°РЅРёРµ_2
+//#defaine Р—Р°РґР°РЅРёРµ_3 
+//#defaine Р—Р°РґР°РЅРёРµ_4
+//#defaine Р РѕРјР±
 void main()
 {
 	setlocale(LC_ALL, "");
-#ifdef Задание_1
+#ifdef Р—Р°РґР°РЅРёРµ_1
 	int n;
-	cout << "Введите размер фигуры:"; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < i; j++)
@@ -24,10 +24,10 @@ void main()
 		}
 		cout << endl;
 	}
-#endif // Задание_1
-#ifdef Задание_0
+#endif // Р—Р°РґР°РЅРёРµ_1
+#ifdef Р—Р°РґР°РЅРёРµ_0
 	int n;
-	cout << "Введите размер фигуры:"; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -36,10 +36,10 @@ void main()
 		}
 		cout << endl;
 	}
-#endif // Задание_0
-#ifdef Задание_2
+#endif // Р—Р°РґР°РЅРёРµ_0
+#ifdef Р—Р°РґР°РЅРёРµ_2
 	int n;
-	cout << "Введите размер фигуры:"; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{		
 		for (int j = i; j < n; j++)
@@ -48,10 +48,10 @@ void main()
 		}
 		cout << endl;
 	}
-#endif // Задание_2
-#ifdef Задание_3
+#endif // Р—Р°РґР°РЅРёРµ_2
+#ifdef Р—Р°РґР°РЅРёРµ_3
 	int n;
-	cout << "Введите размер фигуры:"; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < i; j++)
@@ -64,10 +64,10 @@ void main()
 		}
 		cout << endl;
 	}
-#endif // Задание_3
-#ifdef Задание_4
+#endif // Р—Р°РґР°РЅРёРµ_3
+#ifdef Р—Р°РґР°РЅРёРµ_4
 	int n;
-	cout << "Введите размер фигуры:"; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < (n - 1); j++)
@@ -80,10 +80,10 @@ void main()
 		}
 		cout << endl;
 	}
-#endif // Задание_4
-#ifdef Ромб
+#endif // Р—Р°РґР°РЅРёРµ_4
+#ifdef Р РѕРјР±
 	int n;
-	cout << "Введите размер фигуры:"; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for(int j = i; j < n; j++) cout << " "; cout << "/";
@@ -96,6 +96,6 @@ void main()
 		for (int j = i; j < n - 1; j++)cout << "  "; cout << "/";
 		cout << endl;
 	}
-#endif // Ромб
+#endif // Р РѕРјР±
 
 }
